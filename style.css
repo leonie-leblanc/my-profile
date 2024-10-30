@@ -1,0 +1,119 @@
+/* Colors and fonts */
+
+
+body {
+	background-color: rgb(224,191,184);
+	color: rgba(128, 35, 35, 0.91);
+	font-family: Livvic;
+	font-size: 16px;
+	margin: 0;
+	text-align: center;
+}
+
+h1 {
+  color: rgb(94,11,11);
+	font-family: Merriweather; 
+	font-weight: bold;
+	font-size: 45px;
+}
+
+h2 {
+  color: rgb(151,39,39);
+	font-family: Georgia; 
+	font-weight: bold;
+	font-size: 23px;
+}
+a {
+	color: rgba(128, 35, 35, 0.91);
+	font-family: Times New Roman;
+	font-size: 17px;
+}
+
+a:hover {
+  color:rgb(94,11,11);
+	}
+ 
+p {
+	text-justify: justify;
+}
+
+#profilepic {
+  width: 180px;
+  border-radius: 50%;
+  border-color: rgb(94,11,11);
+  box-shadow: 3px 3px 3px rgb(94,11,11);
+}
+
+div {
+    display: block;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    border-top: 1px;
+    border-right: 2px;
+    border-bottom: 1px;
+    border-left: 2px;
+    margin: 10px auto;
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+		width: 600px;
+    }	
+	}	
+
+	@media (max-width: 500px) {
+  .container {
+		width: 400px;
+    }	
+	}	
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: rgb(224,191,184);
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color:rgb(224,191,184);
+}
+
+.list-inline i:hover {
+	color:rgb(94,11,11);
+}
+
+#introduction p{
+   margin-bottom: 40px;
+}	
+
